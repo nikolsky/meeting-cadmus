@@ -1,3 +1,4 @@
-pip install --upgrade google-cloud-translate
+pip install --upgrade google-cloud-translate google-cloud-speech
+google-cloud-speech
 
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/stanislavivanov/Downloads/my-project-98575-371210-114ac428d015.json"
+
