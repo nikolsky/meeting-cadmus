@@ -1,0 +1,3 @@
+
+
+Artem and Stas discussed a project they are working on to create a transcript of meeting recordings. They discussed different methods for building the transcription, such as using an open model, GPT-3, and Hagenface. They also discussed how to use Telegram or emails to get the transcripts to the user. Lastly, they discussed how they want to do the transcription in Russian or other languages if they are available in Google, Zoom, or other sources.
