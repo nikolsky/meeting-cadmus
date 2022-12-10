@@ -1,5 +1,11 @@
 # Imports the Google Cloud Translation library
-from google.cloud import translate
+import six
+from google.cloud import translate_v2 as translate
+
+import os
+import openai
+openai.organization = "org-JaGJq15JH1OngBfov966SFaN"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 PROJECT_ID = "my-project-98575-371210"
 
@@ -36,8 +42,7 @@ def translate_text(text):
     Target must be an ISO 639-1 language code.
     See https://g.co/cloud/translate/v2/translate-reference#supported_languages
     """
-    import six
-    from google.cloud import translate_v2 as translate
+
 
     translate_client = translate.Client()
 
@@ -54,7 +59,15 @@ def translate_text(text):
 
 
 if __name__ == "__main__":
-    translate_text("я люблю тебя")
+    # translate_text("я люблю тебя")
 
 
     #export GOOGLE_APPLICATION_CREDENTIALS="/Users/stanislavivanov/Downloads/my-project-98575-371210-114ac428d015.json"
+
+
+    prompt = """Write love letter to my real girlfriend named Daria using references to anime Naruto"""
+    resp = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=300, temperature=0.9, top_p=1, frequency_penalty=0.0, presence_penalty=0.6)
+    print(resp)
+    text = resp.choices[0].text
+    print(text)
+    
