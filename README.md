@@ -35,8 +35,8 @@ Finally, our MVP can accurately extract from the audio transcript summary, insig
 
 ## Screenshots
 ![Alt text](https://user-images.githubusercontent.com/5506168/206925662-46788a3e-28fa-4ec8-8c16-694412000c13.png "1")
-![Alt text](https://user-images.githubusercontent.com/5506168/206925665-3742db4b-6c1c-425e-9280-81745b6916ff.png "2")
-![Alt text](https://user-images.githubusercontent.com/5506168/206925670-205af6d7-0dbb-453b-aa09-8ff3b5eae8f2.png "3")
+![Alt text](https://user-images.githubusercontent.com/5506168/206926893-ea0e35f1-6507-4544-8c49-596724221c5a.png "2")
+![Alt text](https://user-images.githubusercontent.com/5506168/206926926-e9527ffa-a895-4ab6-835a-ce10d057e0a7.png "3")
 
 ## How to use
 0. To use this app you have to pass your API KEYS TO GCP and Open AI:
