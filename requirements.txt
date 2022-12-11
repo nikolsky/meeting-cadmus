@@ -1,0 +1,8 @@
+google-cloud==0.34.0
+google-cloud-translate==3.8.4
+google-cloud-speech==2.16.2
+openai==0.25.0
+Flask==2.2.2
+Flask-WTF==1.0.1
+six==1.16.0
+tqdm==4.64.1

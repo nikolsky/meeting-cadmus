@@ -41,6 +41,8 @@ def translate_text(text):
 
 
 def transcribe_streaming_v2(project_id, recognizer_name, audio_file):
+    print("transcribe_streaming_v2", project_id, recognizer_name, audio_file)
+    return
     # Instantiates a client
     client = SpeechClient()
 
@@ -97,6 +99,8 @@ def transcribe_streaming_v2(project_id, recognizer_name, audio_file):
 
 
 def save_transcript(trans_resp, path):
+    print("save_transcript", trans_resp, path)
+    return
     transcripts = []
     for resp in trans_resp:
         for result in resp.results:
@@ -106,24 +110,19 @@ def save_transcript(trans_resp, path):
     with open(path, 'w') as f:
         f.write("\n".join(transcripts))
 
-def parse_transcript():
+def parse_transcript(speakers_dict):
+    print("speakers_dict", speakers_dict)
+    return
     all_trans = []
-    with open("artem_transcript.txt") as f:
-        artem_trans = f.read()
-        artem_trans = artem_trans.split("\n")
-    for item in artem_trans:
-        transcript, start,end = item.split("/")
-        start, end = float(start), float(end)
-        all_trans.append(("Artem", transcript, start,end))
-
-    
-    with open("stas_transcript.txt") as f:
-        stas_trans = f.read()
-        stas_trans = stas_trans.split("\n")
-    for item in stas_trans:
-        transcript, start,end = item.split("/")
-        start, end = float(start), float(end)
-        all_trans.append(("Stas", transcript, start,end))
+    for dictor_name in speakers_dict:
+        transcript_path = speakers_dict[dictor_name]
+        with open(transcript_path) as f:
+            transcript = f.read()
+            transcript = transcript.split("\n")
+        for item in transcript:
+            line, start,end = item.split("/")
+            start, end = float(start), float(end)
+            all_trans.append((dictor_name, line, start,end))
     
     all_trans.sort(key=lambda x: x[2])
     return all_trans
@@ -180,7 +179,6 @@ def get_risks(text):
 
 
 if __name__ == "__main__":
-
 
     # trans_resp = transcribe_streaming_v2(PROJECT_ID, 'projects/472813974978/locations/global/recognizers/recognizer-4', "stas.wav")
     # save_transcript(trans_resp=trans_resp, path="stas_transcript.txt")
