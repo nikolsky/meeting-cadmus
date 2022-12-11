@@ -170,19 +170,18 @@ def get_insights(text):
     resp = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=500, temperature=0.9, top_p=1, frequency_penalty=0.0, presence_penalty=0.6)
     return resp.choices[0].text
 
+def get_risks(text):
+    if len(text.split()) > 2500:
+        raise Exception("Too long text")
+
+    prompt = f"Here is a transcript of the meeting, tell about potential risks: {text}"
+    resp = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=500, temperature=0.9, top_p=1, frequency_penalty=0.0, presence_penalty=0.6)
+    return resp.choices[0].text
+
 
 if __name__ == "__main__":
-    # translate_text("я люблю тебя")
 
 
-    #export GOOGLE_APPLICATION_CREDENTIALS="/Users/stanislavivanov/Downloads/my-project-98575-371210-114ac428d015.json"
-
-
-    #prompt = """Write love letter to my real girlfriend named Daria using references to anime Naruto"""
-    #resp = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=300, temperature=0.9, top_p=1, frequency_penalty=0.0, presence_penalty=0.6)
-    #print(resp)
-    #text = resp.choices[0].text
-    #print(text)
     # trans_resp = transcribe_streaming_v2(PROJECT_ID, 'projects/472813974978/locations/global/recognizers/recognizer-4', "stas.wav")
     # save_transcript(trans_resp=trans_resp, path="stas_transcript.txt")
 
@@ -216,6 +215,10 @@ if __name__ == "__main__":
     # arrangement = get_arrangements(cutted_translated_txt)
     # save_translated_txt(arrangement, "arrangements.txt")
     
-    insights = get_insights(cutted_translated_txt)
-    save_translated_txt(insights, "insights.txt")
+    # insights = get_insights(cutted_translated_txt)
+    # save_translated_txt(insights, "insights.txt")
+
+    risks = get_risks(cutted_translated_txt)
+    save_translated_txt(risks, "risks.txt")
+    
     1/0
