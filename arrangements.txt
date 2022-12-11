@@ -1,3 +1,0 @@
-
-
-Artem and Stas agreed to work together on a project to transcribe audio files and provide translation services. Artem suggested using an open source platform to publish videos and fill in the text manually. Stas proposed using either Telegram or email to automatically send transcripts. Artem would work on integrating with Zoom, while Stas would work on identifying speakers and creating transcripts. They also agreed to use an existing open source library and Google Translate's API to translate texts into different languages. Finally, they discussed a plan for launching a code monetary incentive program, in which users can earn rewards for providing feedback on their completed projects.

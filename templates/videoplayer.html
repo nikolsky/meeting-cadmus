@@ -30,7 +30,7 @@
 </script>
 </head>
 <body>
-  <h2>Serving video files from Flask template</h2>
+  <h2>Meeting Follow Up</h2>
 
   <div class="container">
     <video controls crossorigin playsinline id="player">
@@ -51,14 +51,19 @@
     </div>
 
   <h1>Summary</h1>
-  <p>{{summary}}</p>
+  <p><span style="white-space: pre-line">{{summary}}</span></p>
 
   <h1>Insights</h1>
-  <p>{{insights}}</p>
+  <p><span style="white-space: pre-line">{{insights}}</span></p>
+
+  <h1>Risks</h1>
+  <p><span style="white-space: pre-line">{{risks}}</span></p>
 
   <h1>Arrangements</h1>
-  <p>{{arrangements}}</p>
+  <p><span style="white-space: pre-line">{{arrangements}}</span></p>
 
+  <h2>Transcript</h2>
+  <p><span style="white-space: pre-line">{{transcript}}</span></p>
 
 </body>
 </html>

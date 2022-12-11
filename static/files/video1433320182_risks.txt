@@ -1,0 +1,6 @@
+Potential risks of this meeting include: 
+- Not having access to certain payment platforms that could affect the project's finances 
+- Potential regional and international laws that could limit the project's reach 
+- Not having the necessary tools to achieve the desired outcome of the project 
+- Risk of introducing a new technology that might not be compatible or effective for the project 
+- Potential risks associated with using open source platforms or tools which may not have the necessary security measures in place
