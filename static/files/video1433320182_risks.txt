@@ -1,6 +1,7 @@
-Potential risks of this meeting include: 
-- Not having access to certain payment platforms that could affect the project's finances 
-- Potential regional and international laws that could limit the project's reach 
-- Not having the necessary tools to achieve the desired outcome of the project 
-- Risk of introducing a new technology that might not be compatible or effective for the project 
-- Potential risks associated with using open source platforms or tools which may not have the necessary security measures in place
+ said that I think it would be better to have a single language We can try with English And then its not clear what will happen 
+
+Potential risks in this meeting include: 
+-Financial risk: discussing how to pay for services and access via credit card payments
+-Legal risk: discussing open source platforms, which may potentially constitute copyright infringement or other legal issues
+-Reputational risk: discussing hackathons won by a Russian company and mentioning other countries potentially associated with negative reputations
+-Security risk: discussing passwords and logins for services, which could lead to data breaches or other security issues
