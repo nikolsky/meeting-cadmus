@@ -1,8 +1,9 @@
 # Cadmus
 Automatic Zoom meeting follow-up for engineering managers and architects
 
-This is the project for $50K Assembly AI Hackathon
-https://hopin.com/events/assemblyai-ai-hackathon
+This is the project for [$50K Assembly AI Hackathon](https://hopin.com/events/assemblyai-ai-hackathon).
+
+## [Devpost project link](https://devpost.com/software/tbd-jde4tr)
 
 
 # Project Story
@@ -32,18 +33,17 @@ Overall, the Cadmus project was a challenging but rewarding experience, and we a
 
 Finally, our MVP can accurately extract from the audio transcript summary, insights, arrangements and even risks.
 
-## Project link
-https://devpost.com/software/tbd-jde4tr
-
 ## Screenshots
-https://user-images.githubusercontent.com/5506168/206925662-46788a3e-28fa-4ec8-8c16-694412000c13.png
-https://user-images.githubusercontent.com/5506168/206925665-3742db4b-6c1c-425e-9280-81745b6916ff.png
-https://user-images.githubusercontent.com/5506168/206925670-205af6d7-0dbb-453b-aa09-8ff3b5eae8f2.png
+![Alt text](https://user-images.githubusercontent.com/5506168/206925662-46788a3e-28fa-4ec8-8c16-694412000c13.png "1")
+![Alt text](https://user-images.githubusercontent.com/5506168/206925665-3742db4b-6c1c-425e-9280-81745b6916ff.png "2")
+![Alt text](https://user-images.githubusercontent.com/5506168/206925670-205af6d7-0dbb-453b-aa09-8ff3b5eae8f2.png "3")
 
 ## How to use
 0. To use this app you have to pass your API KEYS TO GCP and Open AI:
+```
 export OPENAI_API_KEY="your_openai_key"; 
 export GOOGLE_APPLICATION_CREDENTIALS="my-project-98575-371210-114ac428d015.json"; # path to you cred file
-1. Start flask application python3 app.py
+```
+1. Start flask application ```python3 app.py```
 2. Upload Zoom video using the form
 3. Wait for the result and check Summary, Insights, Risks, Arrangements and Transcript
