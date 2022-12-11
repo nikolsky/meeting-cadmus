@@ -1,0 +1,110 @@
+
+ArtemNikolskiy: Hello Whats up
+StasPrikhodko: Hello
+ArtemNikolskiy: Yes, yes, I cant hear it
+ StasPrikhodko: let me hear it! links from whats new I learned, I found a derivator So there is a Russian church right there is a chip, yes, but you know such a company and this one is on hagenface There is some kind of open model, just idealization, you can probably take it -there is some sentiment there, in theory Well, nothing is needed self-tapping there is, I have not tried it yet, but considering how well GPT did for 100 And what it can do separately for each speaker I think that you can just use it and score
+ ArtemNikolskiy: yes Well, yes, gpt sounds cool, damn it. Cool, but you can do the same thing through the API
+ StasPrikhodko: yes, yes
+ ArtemNikolskiy: and it will be normal Well, that is, it’s immediate or what’s the joke
+ StasPrikhodko: it’s fast it’s fast it’s fast it’s fast Well, although I still, in principle, well, I tend to believe that we most likely will not have a real-time interface So I think even if it was slow nothing there is nothing particularly terrible in this
+ ArtemNikolskiy: yes, yes, I looked Zoom those links that I Well, then I studied this one, the coolest thing is that you can receive an audio stream online Well, like rtp But the problem is that it is not divided by track and Probably this is for us it’s also not relevant to bother too much. I think it’s still easier for us to work with a video with a ready one
+ StasPrikhodko: I completely agree
+ ArtemNikolskiy: Well, how to solve this problem yesterday I looked at these dudes who are Well, these are like And what are my competitors now and what is the interface Google really Google can do all this for Spanish English and some other languages And you include a record in it Or you can just include a transcript and it makes a transcript highlights the keywords Well stabilization There is no cation there. That is, it is like one of the documents so strong that it doesn’t exist for our language. And we want to do this for our language. And also for other languages \u200b\u200bwhich are not in Google and Zoom, and therefore we can kind of try Well, plus me I thought that it’s really cooler to solve our problem in Russian Well, for something, the initial drowned, maybe English, it will be a bonus like, well, like the main one, it really needs its own and, in principle, you can try through the translation to see what happens for sure, something will work out
+ StasPrikhodko : excellent Yes, self-realization there, thats all that with text aggregation, everything will be fine You know, it seems to me that the translation is possible Heres another of the unpleasant news, I looked at this one, first of all, I searched for a fool, maybe there is already some kind of library like there is audio but there is video I didn’t find such a video from the recorded Zuma into tracks like I didn’t find it Unfortunately Although I thought Damn, well, I had such a problem in my life before And now I didn’t even push Xia I thought maybe something even from the githuber, too something
+ ArtemNikolskiy: and what kind of even what exactly did you want when you all together wanted to find
+ StasPrikhodko: implementation But when we have a little even when we have the whole record, we have it in the middle it’s written who says it and the sound Well, in theory, you can share it Well, with a vidos, in principle, it’s OK there it will be with an overlay, bad problems, something else But it can be done It’s more difficult because there is still something they say and at the bottom left it’s written but it’s also possible to do it
+ ArtemNikolskiy: yes, by the way, yes, you need to screw something on yourself Come on here
+ StasPrikhodko: therefore Well, then
+ ArtemNikolskiy: But we can do it later, I, too, I also thought about just such an implementation when a long time ago
+ StasPrikhodko: I wanted to eat and the second unpleasant news I saw Well, I saw it, I just didn’t say it again yesterday that it’s strange for residents like Russia to not quite the president already We’re kind of different officially, but well, I think they won’t give 50 percent Even if we win something
+ ArtemNikolskiy: is it written about Russia or is there a list of countries
+ reason Brazil is there Well, then the classic list like Syria Crimea uh Russia Iran Right, this one in these lists, by the way, it was possible Well,
+ ArtemNikolskiy: Iran, as usual 
+StasPrikhodko: I agree yes yes we don’t sweat or we don’t burn we don’t burn correctly No, other people also record in Russian I think it’s normal in this regard
+ArtemNikolskiy: we can always mow the signal to look like Ukrainians
+StasPrikhodko: Well, I’m actually Ukrainian
+ArtemNikolskiy : Here you can make a fuss in social networks what, like, what the hell are you humiliating us But you heard it recently, but you recently heard about a hackathon won by a Russian company named migram in my opinion Well, yes, I heard this story, yes there it was in the other direction, it was okay Its all the little things
+StasPrikhodko: Well, yes, I also threw these off and asked them to open them, they didnt open
+ ArtemNikolskiy: they opened them
+ StasPrikhodko: I also looked, they didnt open them Well, I sent you a screenshot like refracing Access
+ ArtemNikolskiy: but I remembered yes
+ StasPrikhodko: what we asked for money, he told me Of course, no problem, only when they are his wife, but I made an account and threw off my backup, but I don’t know when they will send me a loan Well, I didn’t find anything interesting on that platform its kind of like open its all like its essentially very similar in idea to a thing But
+ArtemNikolskiy: That is, its like a lot of all sorts of models And what kind of kokhir
+StasPrikhodko: no not Thats what
+ArtemNikolskiy: Huber Duck replicates
+StasPrikhodkos replica : I dont remember
+ArtemNikolskiy: Okay, uber is some kind of crap account and 8 more. Get 20 hours of transcription well, we can
+ ArtemNikolskiy: of course they have it, but they have it all, as it were, all together, I look like that Well, they sort of separate both by speakers and keywords, well, they kind of do everything they do
+ StasPrikhodko: Well, yes, I understand it like that there is a type Just recognition And there is recognition and a million thousand from above
+ ArtemNikolskiy: and in one answer they return I understand that we can’t just give them audio and say Make us a diorization Well, Russian audio in theory is idealization, she doesn’t care in theory what language do you speak
+ StasPrikhodko: i think yes but i think its all one combine it wont work
+ Artem Nikolskiy: Yes, thats the problem, but it would be convenient of course, i.e. it turns out that we dont, well, we probably will screw them anyway, but for English Like if English then assembly we take everything if like another language then so about the idealizer something from crt something somehow not cool
+ StasPrikhodko: I agree But there is one face it is some kind of borrowed interface but I think it is possible try with n they should try to play around
+ArtemNikolskiy: And you need to raise him into yourself or like
+StasPrikhodko: not him There are also jokes everything is fine but they are just for money how much money it will spend you just need to figure it out
+ArtemNikolskiy: Well, if I have something, I can also have my own tie it there in Turkey Yes, with online credit card payments
+ StasPrikhodko: Well, it seems to work, but it is unstable here such a thing as the famous Turkish house in general, everything is different for some reason
+ ArtemNikolskiy: I interrupted you what you wanted to say no interest they 
+ StasPrikhodko: And I also wanted to say that probably with English too Well, that is, we can do it like for Russian, first, if there is time left, we can do it for English, but I think its better to do it for one language, I can say like, well, in general, we are not dependent only on recognizers If do you have a recognizer? In this language, our thing works
+ ArtemNikolskiy: By the way, yes
+ StasPrikhodko: Thank you very much
+ Artem Nikolskiy: Well, yes, yes, So we need to to load into the idealizer of the Hagenface Terminator, we still need to understand what kind of interface we will have, it will be Telegram or something else
+ StasPrikhodko: discussion Well, I have two options either Telegram or mail What do you think about these two
+ ArtemNikolskiy: but better of course Telegram but I don’t even like telegrams much anyway Because these dudes obviously don’t understand what the hell is like I think maybe we can dig a little and suddenly we will find some kind of Open Source platform like when you upload a video there is an opportunity such as publishing the text and at least I’m almost manually filling it all in
+ StasPrikhodko: this will probably be questions for all the southerners
+ ArtemNikolskiy: about sexuality And what difference does it make VP You can at least make the main thing like ua for us to make it seem visual Well, for you they could publish it somewhere I couldn’t poke it
+ StasPrikhodko: Yes, I understand you want to conditionally say that there is a platform, some page there, and there is already a vidos and all of our the text that we wrote there
+ ArtemNikolskiy: Well, yes Well, like, yes, yes, like, without any password logins without anything at all, just purely like a certain front of it all But of course, the chance that this will work somewhere is probably 30 percent, but I would a little I spent a little time on this, but it seems to me that Telegram, yes, you just upload our classics to Telegram bot
+ StasPrikhodko: Well, you can try
+ ArtemNikolskiy: and yes, everything works But by the way, now I have turned on this checkbox in Zoom and it will really be there we will have separate tracks, that is, we kind of need to hold two modes Well, that is, the implementation is no longer needed in fact
+ StasPrikhodko: When we have it now we can start with this
+ StasPrikhodko: We can add it as a separate feature later
+ ArtemNikolskiy: only we won’t have such records much like now with you we will only have one such record
+ StasPrikhodko: let’s then probably Well, that’s good for a test, one is enough, in principle, for some kind of test, a free conversation already starts working and beat somehow works between us I would suggest, for example, you are doing it. So it turns out that integration with a zoom disappears. somehow I came to send it to the user either through this magical site or via Telegram And I would do self-realization by highlighting these insiders And when I do that, I can do the implementation You have some experience in this regard, you probably read everything, and if ours can be great Lets take ours
+ArtemNikolskiy: Well, we can take ours
+StasPrikhodko: I thought it was a little difficult
+ArtemNikolskiy: the only thing we wont be able to publish the login and the password for this is
+ StasPrikhodko: make it prompt enter the login you see the password I think its normal, especially since we have here I just said as if we would have a code term 100
+ ArtemNik olskiy: yes, there is such a suspicion
+ StasPrikhodko: so great Its good to code morons, I think Well, we program Google Docs
+ Artem Nikolskiy: yes, you are ready to take it, but writes
+ StasPrikhodko: We are working
+ Artem Nikolskiy: yes So it means OK second suggest Telegram And in which in a sense, it should be in such a way that we make videos or not
+ StasPrikhodko: I think its Nights of But if in theory a person should just go in and get a short sambori, its probably assumed that he doesnt want to watch the video
+ArtemNikolskiy: i.e. audio he should throw it off or text
+ StasPrikhodko: its not even audio I think its just the text in which we recognized it and some type of rally was called so-and-so it was attended by ABCD so-and-so
+ ArtemNikolskiy: so So we have the text of course 
+StasPrikhodko: here is
+ ArtemNikolskiy: Lada text is normal without punctuation the only thing is that if you send the text you wont have any meta-information, in theory you should throw audio and for it to happen in our stateshka code plus all the logic and here is a report for you and therefore the video is also ok to throw Well, like we are from the video We take the video itself We take the audio only and do me any option Okay
+ ArtemNikolskiy: Okay, Ill still look a little more about this platform If there is a chance that it will start
+ StasPrikhodko: if it works for you Please let it be on it If you decide that mail mail mail please if that homing pigeons means homing pigeons I still have to translate Lets
+ArtemNikolskiy: so ok yes By the way yes translate this is what Translate
+StasPrikhodko: I think through Google Im almost through the Google API it will be fine : free
+ StasPrikhodko: well, I think if it will be there in the vocal hall, I think they will give me something for free. So I suggest Well, not Yandex, because it is basically normal in Russian if anyone and in principle it works almost all languages, so we will say something like this
+ ArtemNikolskiy: yes yes So it means that there is in English and in Russian there is no kid like this
+ StasPrikhodko: but it seems to me that translate does not take much, but at the same time if we use russian russian gpt then we lose all the english text in the world which was well, which was voiced by gpt-3
+ArtemNikolskiy: well, yes, yes,
+ StasPrikhodko: And thats why I certainly wouldnt want to be with Russians at all, and plus well be back to the fact that we are multilingual for everything, like that we all hummed English there already that you can translate
+ ArtemNikolskiy: logically logical But when you tested I understand that you first say like Do it for me and based on this she does everything she works like that yes
+ StasPrikhodko : yes yes yes yes I’m like I’m writing from the morning to the top like Do it yourself or for the speaker b Here’s what the transcript is then writing below there is no free form to accept assignments from you
+ StasPrikhodko: You just write the assignment
+ ArtemNikolskiy: not that the linguist model was just caught yes, but the fact that you write the assignment for him she understands on the one hand its cool, but on the other hand it seems like its too much universal and when everything is too universal But usually it works worse than when You clearly have a self-realizer as some trained
+ forms, then we can ask for action points and insiders, the street is separated Well, it’s okay, I wrote it down Listen straight Well, that’s it
+ ArtemNikolskiy: Damn, it’s cool, but they do it in general. something Well, there is some kind of query language, I just asked Just try these first two queries, I didn’t rig them Wars is and hes also a cyboard crash
+ StasPrikhodko: I think you can Well, about cyboards and search by rallies, this is a cool thing, but it seems to me that Telegram works with our yuan and it will be very difficult to do it, so its certainly tough
+ ArtemNikolskiy: yes yes Its hard to do me I also thought so Well, ok Yes, in principle, everything is clear
+ StasPrikhodko: everything Okay, then lets assign the next singing maybe either when we both finish or when this one
+ ArtemNikolskiy: Well, come on here around 6 oclock Oh, well, its like now 12 Moscow time via
+ StasPrikhodko: after 6 hours it turns out at 8:00 pm at night Come on then, lets get an hour less
+ ArtemNikolskiy: lets do it at 6 pm I meant at 6:00 pm in general, but it turns out after 6 hours wait in 6 hours its 6 its 6:00 pm its not eight no Im talking about 6 you have here I have now Moscow time 12:00 in 6 hours it will be 18 yes
+ nights
+ Artem Nikolskiy: yes, everything is soo lane We have the first record Aga
+ StasPrikhodko: So then lets make this github account to the repository uploaded I also hello You will write
+ ArtemNikolskiy: what will we call
+ StasPrikhodko: I dont know I had an idea to name Yurko Yurkov this
+ ArtemNikolskiy: Come on, lets do something more universal Lets do something like this
+ StasPrikhodko: Well, this is boring Ill google Ill send it to you yes yes Ill google
+ ArtemNikolskiy: Come on, this is also on you then Im for universal names Yurko it was
+ StasPrikhodko: damn it
+ ArtemNikolskiy: this will be our internal name
+ StasPrikhodko: Okay, thanks then for breaking up and until the evening everything, good luck to you. Give the package And also, as soon as you get the first transcription, do Throw me please, Im in some format so that I can already test the trailer with them for this

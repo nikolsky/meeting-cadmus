@@ -1,0 +1,1 @@
+ think that its better to have a universal interface like the one we talked about That is, we should first use English and then make a translation into Russian

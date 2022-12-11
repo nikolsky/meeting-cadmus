@@ -41,6 +41,8 @@ def translate_text(text):
 
 
 def transcribe_streaming_v2(project_id, recognizer_name, audio_file):
+    # print("transcribe_streaming_v2", project_id, recognizer_name, audio_file)
+    # return
     # Instantiates a client
     client = SpeechClient()
 
@@ -97,6 +99,8 @@ def transcribe_streaming_v2(project_id, recognizer_name, audio_file):
 
 
 def save_transcript(trans_resp, path):
+    # print("save_transcript", trans_resp, path)
+    # return
     transcripts = []
     for resp in trans_resp:
         for result in resp.results:
@@ -106,24 +110,19 @@ def save_transcript(trans_resp, path):
     with open(path, 'w') as f:
         f.write("\n".join(transcripts))
 
-def parse_transcript():
+def parse_transcript(speakers_dict):
+    # print("speakers_dict", speakers_dict)
+    # return
     all_trans = []
-    with open("artem_transcript.txt") as f:
-        artem_trans = f.read()
-        artem_trans = artem_trans.split("\n")
-    for item in artem_trans:
-        transcript, start,end = item.split("/")
-        start, end = float(start), float(end)
-        all_trans.append(("Artem", transcript, start,end))
-
-    
-    with open("stas_transcript.txt") as f:
-        stas_trans = f.read()
-        stas_trans = stas_trans.split("\n")
-    for item in stas_trans:
-        transcript, start,end = item.split("/")
-        start, end = float(start), float(end)
-        all_trans.append(("Stas", transcript, start,end))
+    for dictor_name in speakers_dict:
+        transcript_path = speakers_dict[dictor_name]
+        with open(transcript_path) as f:
+            transcript = f.read()
+            transcript = transcript.split("\n")
+        for item in transcript:
+            line, start,end = item.split("/")
+            start, end = float(start), float(end)
+            all_trans.append((dictor_name, line, start,end))
     
     all_trans.sort(key=lambda x: x[2])
     return all_trans
@@ -142,7 +141,7 @@ def merge_transcripts(all_trans):
     new_transcript = "".join(new_transcript)
     return new_transcript
 
-def save_translated_txt(translated_txt, path):
+def save_txt(translated_txt, path):
     with open(path, 'w') as f:
         f.write(translated_txt)
 
@@ -179,46 +178,45 @@ def get_risks(text):
     return resp.choices[0].text
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
+#     # trans_resp = transcribe_streaming_v2(PROJECT_ID, 'projects/472813974978/locations/global/recognizers/recognizer-4', "stas.wav")
+#     # save_transcript(trans_resp=trans_resp, path="stas_transcript.txt")
 
-    # trans_resp = transcribe_streaming_v2(PROJECT_ID, 'projects/472813974978/locations/global/recognizers/recognizer-4', "stas.wav")
-    # save_transcript(trans_resp=trans_resp, path="stas_transcript.txt")
+#     #trans_resp = transcribe_streaming_v2(PROJECT_ID, 'projects/472813974978/locations/global/recognizers/recognizer-4', "artem.wav")
+#     #save_transcript(trans_resp=trans_resp, path="artem_transcript.txt")
 
-    #trans_resp = transcribe_streaming_v2(PROJECT_ID, 'projects/472813974978/locations/global/recognizers/recognizer-4', "artem.wav")
-    #save_transcript(trans_resp=trans_resp, path="artem_transcript.txt")
+#     # all_trans = parse_transcript()
+#     # new_transcript = merge_transcripts(all_trans)
+#     # translated_txt = translate_text("%".join(new_transcript.split("\n")))
+#     # save_translated_txt(translated_txt, "translated_transcript.txt")
 
-    # all_trans = parse_transcript()
-    # new_transcript = merge_transcripts(all_trans)
-    # translated_txt = translate_text("%".join(new_transcript.split("\n")))
-    # save_translated_txt(translated_txt, "translated_transcript.txt")
-
-    with open("translated_transcript.txt") as f:
-        translated_txt = f.read()
+#     with open("translated_transcript.txt") as f:
+#         translated_txt = f.read()
     
-    translated_txt = translated_txt.replace("&#39;", "")
+#     translated_txt = translated_txt.replace("&#39;", "")
 
-    print(f"Transcript have: {len(translated_txt.split())} words")
+#     print(f"Transcript have: {len(translated_txt.split())} words")
 
-    translated_txt = "\n".join(translated_txt.split("%"))
+#     translated_txt = "\n".join(translated_txt.split("%"))
 
-    ok_words = translated_txt.split()[-2450:]
-    ok_words_len = sum([len(word) for word in ok_words]) + len(ok_words)
+#     ok_words = translated_txt.split()[-2450:]
+#     ok_words_len = sum([len(word) for word in ok_words]) + len(ok_words)
 
-    cutted_translated_txt = translated_txt[:ok_words_len]
+#     cutted_translated_txt = translated_txt[:ok_words_len]
 
 
     
-    # summary = get_summary(cutted_translated_txt)
-    # save_translated_txt(summary, "summary.txt")
+#     # summary = get_summary(cutted_translated_txt)
+#     # save_translated_txt(summary, "summary.txt")
     
-    # arrangement = get_arrangements(cutted_translated_txt)
-    # save_translated_txt(arrangement, "arrangements.txt")
+#     # arrangement = get_arrangements(cutted_translated_txt)
+#     # save_translated_txt(arrangement, "arrangements.txt")
     
-    # insights = get_insights(cutted_translated_txt)
-    # save_translated_txt(insights, "insights.txt")
+#     # insights = get_insights(cutted_translated_txt)
+#     # save_translated_txt(insights, "insights.txt")
 
-    risks = get_risks(cutted_translated_txt)
-    save_translated_txt(risks, "risks.txt")
+#     risks = get_risks(cutted_translated_txt)
+#     save_translated_txt(risks, "risks.txt")
     
-    1/0
+#     1/0
